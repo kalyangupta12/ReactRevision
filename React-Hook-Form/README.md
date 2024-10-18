@@ -54,20 +54,14 @@ To run this project locally, follow these steps:
    cd backend
    ```
 
-2. Install the required dependencies:
+2. Create a MySQL database named `hook_test` and add a `users` table with `id`, `email`, and `password` columns.
+
+3. Update the MySQL credentials in `server.js` to match your local MySQL setup.
+
+4. Start the backend server:
 
    ```bash
-   npm install
-   ```
-
-3. Create a MySQL database named `hook_test` and add a `users` table with `id`, `email`, and `password` columns.
-
-4. Update the MySQL credentials in `server.js` to match your local MySQL setup.
-
-5. Start the backend server:
-
-   ```bash
-   node server.js
+   nodemon server.js
    ```
 
 ## Usage

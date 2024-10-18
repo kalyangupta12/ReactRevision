@@ -64,9 +64,9 @@ function App() {
     else if (errors.password) {
       toast.error(errors.password.message); // it will do password error toast
     }
-    else if (errors.myform) {
-      toast.error(errors.myform.message); // it will toast a blacklisted person who is not allowed to fill this form
-    }
+    // else if (errors.myform) {
+    //   toast.error(errors.myform.message); // it will toast a blacklisted person who is not allowed to fill this form
+    // }
   }
 
   return (
